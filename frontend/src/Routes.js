@@ -1,7 +1,7 @@
-import Login from '../src/pages/Login.jsx'
+import LoginPage from '../src/pages/Login.jsx'
 
 
 
 export {
-    Login
+    LoginPage
 }
