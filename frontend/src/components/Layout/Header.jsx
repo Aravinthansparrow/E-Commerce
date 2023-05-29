@@ -9,8 +9,10 @@ import Navbar from './Navbar'
 import { CgProfile } from "react-icons/cg";
 import {IoIosArrowDown} from "react-icons/io";
 import { IoIosArrowForward } from "react-icons/io";
+import {useSelector} from "react-redux"
 
 function Header({activeHeading}) {
+    // const [isAuthenticatedUser,user] = useSelector((state) => state.user)
     const [searchTerm, setSearchTerm] = useState("")
     const [searchData, setSearchData] = useState(null)
     const [active, setActive] = useState(false)
@@ -141,8 +143,15 @@ function Header({activeHeading}) {
                                 className="relative cursor-pointer mr-[15px]"
                                
                             >
-                                <Link to="/login">
-                                <CgProfile size={30} color="rgb(255 255 255 / 83%)" /></Link>
+                                {/* {isAuthenticatedUser ? (
+                                    <Link to="/login">
+                                        <img src={user.avatar} alt="" />
+                                    </Link>
+                                ) : (
+                                    <Link to="/login">
+                                        <CgProfile size={30} color="rgb(255 255 255 / 83%)" />
+                                    </Link>
+                                )} */}
                                 
                             </div>
                         </div>

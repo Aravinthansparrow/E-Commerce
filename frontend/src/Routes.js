@@ -1,9 +1,17 @@
 import LoginPage from '../src/pages/Login.jsx'
 import SignUpPage from "../src/pages/SignupPage"
 import HomePage from "../src/pages/HomePage"
+import ProductsPage from "../src/pages/ProductsPage.jsx"
+import BestSellingPage from './pages/BestSellingPage.jsx'
+import EventsPage from './pages/EventsPage'
+import FAQPage from './pages/FAQPage.jsx'
 
 export {
     LoginPage,
     SignUpPage,
-    HomePage
+    HomePage,
+    ProductsPage,
+    BestSellingPage,
+    EventsPage,
+    FAQPage
 }
