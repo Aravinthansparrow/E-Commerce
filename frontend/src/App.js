@@ -1,7 +1,7 @@
 import React from 'react'
 import './App.css'
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
-import {LoginPage,SignUpPage,HomePage} from './Routes.js';
+import {LoginPage,SignUpPage,HomePage,ActivationPage} from './Routes.js';
 const App = () => {
   return (
     <BrowserRouter>
@@ -9,6 +9,7 @@ const App = () => {
       <Route path='/' element={<HomePage/>}/>
       <Route path='/sign-up' element={<SignUpPage/>}/>
       <Route path='/login' element={<LoginPage/>}/>
+      <Route path='/activation/:activation_token' element={<ActivationPage/>}/>
     </Routes>
     </BrowserRouter>
   )

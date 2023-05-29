@@ -34,10 +34,13 @@ const Signup = () => {
     newform.append("emai;", email);
     newform.append("password", password);
 
-    axios.post(`${server}/user/create-user`, newform, config).then((res) => {
-      console.log(res);
-    }).catch((err) => {
-      console.log(err);
+    axios
+    .post(`${server}/user/create-user`, newform, config)
+    .then((res) => {
+      alert(res.message)
+
+    }).catch((error) => {
+      console.log(error);
     })
 
 
