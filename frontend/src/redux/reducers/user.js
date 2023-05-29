@@ -7,8 +7,7 @@ const initialState ={
 export const userReducer =createReducer(initialState,{
     LoadUserRequest:(state)=>{
         state.loading=true;
-    }
-},
+    },
     LoadUserSuccess:(state,action)=>{
         state.isAuthenticated=true;
         state.loading=false;
@@ -25,6 +24,6 @@ export const userReducer =createReducer(initialState,{
 
     clearErrors:(state)=>{
         state.error =null;
-    },
+    }
 
-)};
+});
