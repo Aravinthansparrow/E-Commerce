@@ -6,7 +6,7 @@ import BestSellingPage from './pages/BestSellingPage.jsx'
 import EventsPage from './pages/EventsPage'
 import FAQPage from './pages/FAQPage.jsx'
 import ActivationPage from "../src/pages/ActivationPage"
-
+import ProfilePage from './pages/ProfilePage.jsx'
 
 export {
     LoginPage,
@@ -16,5 +16,6 @@ export {
     BestSellingPage,
     EventsPage,
     FAQPage,
-    ActivationPage
+    ActivationPage,
+    ProfilePage,
 }
