@@ -6,6 +6,10 @@ import BestSellingPage from './pages/BestSellingPage.jsx'
 import EventsPage from './pages/EventsPage'
 import FAQPage from './pages/FAQPage.jsx'
 import ActivationPage from "../src/pages/ActivationPage"
+import OrderSuccessPage from"../src/pages/OrderSuccessPage.jsx"
+import PaymentPage from "../src/pages/PaymentPage.jsx"
+import CheckoutPage from "../src/pages/CheckoutPage.jsx"
+import ProductDetailsPage from './pages/ProductDetailsPage.jsx'
 
 
 export {
@@ -16,5 +20,9 @@ export {
     BestSellingPage,
     EventsPage,
     FAQPage,
-    ActivationPage
+    ActivationPage,
+    OrderSuccessPage,
+    PaymentPage,
+    CheckoutPage,
+    ProductDetailsPage
 }
