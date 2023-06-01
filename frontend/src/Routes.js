@@ -11,6 +11,7 @@ import PaymentPage from "../src/pages/PaymentPage.jsx"
 import CheckoutPage from "../src/pages/CheckoutPage.jsx"
 import ProductDetailsPage from './pages/ProductDetailsPage.jsx'
 
+import ProfilePage from './pages/ProfilePage.jsx'
 
 export {
     LoginPage,
@@ -24,5 +25,6 @@ export {
     OrderSuccessPage,
     PaymentPage,
     CheckoutPage,
-    ProductDetailsPage
+    ProductDetailsPage,
+    ProfilePage
 }

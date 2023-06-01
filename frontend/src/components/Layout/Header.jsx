@@ -148,15 +148,16 @@ function Header({activeHeading}) {
                                 className="relative cursor-pointer mr-[15px]"
                                
                             >
-                                {/* {isAuthenticatedUser ? (
-                                    <Link to="/login">
-                                        <img src={user.avatar} alt="" />
-                                    </Link>
-                                ) : (
-                                    <Link to="/login">
+                                {/* {isAuthenticatedUser ? ( */}
+                                    {/* <Link to="/profile">
+                                        <img src={`${backend_url}${user.avator}`} className='w-[40px] h-[40px] rounded-full' alt="" />
+                                    </Link> */}
+                                {/* ) : ( */}
+                                    {/* sample profile page but instead we use above backend issue*/}
+                                    <Link to="/profile"> 
                                         <CgProfile size={30} color="rgb(255 255 255 / 83%)" />
                                     </Link>
-                                )} */}
+                                {/* )} */}
                                 
                             </div>
                         </div>
